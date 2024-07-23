@@ -79,14 +79,16 @@ This is a full-stack banking application built using React.js for the frontend a
 
 ## Screenshots
 
-![Home Page](screenshots/home-page.png)
-![Create Account](screenshots/create-account.png)
-![Search Account](screenshots/search-account.png)
-![Account Details](screenshots/account-details.png)
-![Deposit Funds](screenshots/deposit-funds.png)
-![Withdraw Funds](screenshots/withdraw-funds.png)
-![Delete Account](screenshots/delete-account.png)
-![Responsive Design](screenshots/responsive-design.png)
+![Home Page](BA1.png)
+![About](BA2.png)
+![Contact Form](BA3.png)
+![Bank Operations](BA4.png)
+![Search Account](BA5.png)
+![Account Details](BA6.png)
+![Deposit and Withdraw Funds](BA7.png)
+![Account Not Found](BA8.png)
+![Delete Account]()
+
 
 ## API Endpoints
 
