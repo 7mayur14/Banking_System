@@ -28,7 +28,7 @@ This is a full-stack banking application built using React.js for the frontend a
 - Spring Boot 3.3.0
 - Maven
 - Spring Data JPA
-- H2 Database
+- MySQL Database
 
 ## Getting Started
 
