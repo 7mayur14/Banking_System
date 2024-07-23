@@ -1,0 +1,151 @@
+.home-container {
+    background: linear-gradient(to bottom, #004080, #003366);
+    color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+    margin-top: 60px; /* Added top margin */
+    animation: fadeIn 2s ease-in-out;
+}
+
+.header {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    position: relative; /* For absolute positioning of logo */
+    height: 200px; /* Adjust height as needed */
+    text-align: center; /* Center text horizontally */
+}
+
+.bank-logo {
+    width: 150px;
+    height: 150px;
+    background-image: url('../assets/logo.png'); /* Include your logo image here */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute; /* Position absolutely */
+    top: 20px; /* Adjust top position */
+    left: 20px; /* Adjust left position */
+}
+
+p {
+    text-align: center;
+    margin-top: 80px; /* Space from top */
+}
+
+.home-title {
+    font-size: 2.5em;
+    margin-top: 30px; /* Space from paragraph */
+    margin-bottom: 0; /* Remove bottom margin if needed */
+    animation: bounce 2s infinite;
+}
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    text-align: center;
+}
+
+.services-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between boxes */
+}
+
+.service-box {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 1s ease-out;
+    min-width: 300px; /* Ensures boxes don’t shrink below 300px */
+    max-width: 350px; /* Sets a maximum width */
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.service-icon {
+    width: 80px; /* Increased size for better visibility */
+    height: 80px; /* Increased size for better visibility */
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    background-color: #ffcc00; /* Placeholder color */
+    animation: pulse 2s infinite;
+}
+
+.personal-banking-icon {
+    background-image: url('../assets/personal.png'); /* Replace with correct path */
+    background-size: cover;
+}
+
+.loans-icon {
+    background-image: url('../assets/lone.png'); /* Replace with correct path */
+    background-size: cover;
+}
+
+.credit-cards-icon {
+    background-image: url('../assets/credit.png'); /* Replace with correct path */
+    background-size: cover;
+}
+
+.corporate-banking-icon {
+    background-image: url('../assets/corporate.png'); /* Replace with correct path */
+    background-size: cover;
+}
+
+.digital-banking-icon {
+    background-image: url('../assets/digital.png'); /* Replace with correct path */
+    background-size: cover;
+}
+
+.service-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1em;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    60% { transform: translateY(-15px); }
+}
