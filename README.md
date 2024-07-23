@@ -67,14 +67,15 @@ This is a full-stack banking application built using React.js for the frontend a
 ## Project Structure
 
 ### Frontend
-
+- **src/pages:** React pages for various parts of the UI.
+- **src/service:** React service.
 - **src/components:** React components for various parts of the UI.
 - **src/assets:** Images and other static assets.
 - **src/App.js:** Main app component.
 
 ### Backend
 
-- **src/main/java/com/example/banking:** Main package containing controllers, services, repositories, and entities.
+- **src/main/java/com/javaguid/banking:** Main package containing controllers, services, repositories, and entities.
 - **src/main/resources:** Configuration files, including `application.properties`.
 
 ## Screenshots
@@ -87,7 +88,7 @@ This is a full-stack banking application built using React.js for the frontend a
 ![Account Details](BA6.png)
 ![Deposit and Withdraw Funds](BA7.png)
 ![Account Not Found](BA8.png)
-![Delete Account]()
+
 
 
 ## API Endpoints
